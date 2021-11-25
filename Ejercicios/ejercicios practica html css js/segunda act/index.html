@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html  lang="es">
+<head>
+  <title>Generador de roblox 2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="Recursos/css/estilo.css">
+  <script src="Recursos/js/script.js"></script>
+</head>
+  <body>
+  <audio src="Recursos/mp3/osu.mp3" preload="none" controls class='audioc'></audio>
+  <header>
+      <div class="container" style="color: blue; size: 24pt;">
+          <h1>Oda a <span>Ruby Kurosawa</span></h1>
+      </div>
+      <nav class="navegacion">  
+          <ul>
+              <li><a href="#" onmouseover="mouseOver(this)" onMouseOut="mouseOut(this)"><i></i>Home</a></li>
+              <li><a href="#" onmouseover="mouseOver(this)" onMouseOut="mouseOut(this)"><i></i>Informacion</a></li>
+              <li><a href="#" onmouseover="mouseOver(this)" onMouseOut="mouseOut(this)"><i></i>Memes</a></li>
+              <li><a href="#" onmouseover="mouseOver(this)" onMouseOut="mouseOut(this)"><i></i>Animes</a></li>
+          </ul>
+      </nav>
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Cosas Extra</button>
+        <div id="lentejas1" class="dropdown-contenido">
+          <a href="#" onclick="openTab()">Mi Playlist</a>
+          <a href="#" onclick="openTab1()">Instagram</a>
+          <a href="#" onclick="openTab2()">Video del año</a>
+        </div>
+      </div>
+      <br>
+      <div style="color: blue; size: 24pt;">
+        <a>
+          usaremos el js y codigo html 
+          <br>para agregar casillas al igual que sumar los numeros<br>
+          los pajaros volando son totalmente hechos con css.<br>
+          el tema del dropdown usa onClick() y openTab para abrir los links dentro<br>
+          llamando directamente al javascript con window.open()
+      </div>
+  </header>
+  <section>
+    <h4>Juego steep</h4>
+      <figure><img id="ruby1" src="Recursos/img/llamo.jpg" width="300" height="200" alt="rubyuno"></figure>
+  </section>
+  <aside>
+      <h5>Juego osu</h5>
+      <figure><img id="ruby2" src="Recursos/img/ruby-kurosawa.gif" width="300" height="200" alt="ruby2"></figure>
+  </aside>
+  <aside>
+      <figure><img id="ruby3" src="Recursos/img/love.gif" width="300" height="200" alt="ruby3"></figure>
+  </aside>
+  <aside>
+      
+      <figure><video controls  id="ruby4" src="Recursos/MP4/osu2.mp4" width="300" height="200"></video></figure>
+  </aside>
+  <aside>
+      <figure><video controls  id="ruby5" src="Recursos/MP4/euro.mp4" width="300" height="200"></video></figure>
+  </aside>
+  <aside>
+      <figure><video controls  id="ruby6" src="Recursos/MP4/estip.mp4" width="300" height="200"></video></figure>
+  </aside>
+  <aside>
+      <figure><video controls  id="ruby7" src="Recursos/MP4/stip.mp4" width="300" height="200"></video></figure>
+  </aside>
+  <form action="#" method="POST" name="form1">
+      <h2>Tarjeta de credito</h2>
+      <fieldset class="info">
+          <legend>Informacion Personal</legend>
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="Nombre" id="nombre" required minlength="2" maxlength="15">
+          <label for="Apellido">Apellido:</label>
+          <input type="text" name="Apellido" id="Apellido" required minlength="2" maxlength="15">
+      </fieldset>
+      <fieldset class="notarjeta">
+          <legend>Numero de tarjeta</legend>
+          <label for="tarjeta">Numero de tarjeta:</label>
+          <input type='text' name='text1' id="tarjeta" required/>
+          <label for="vencimiento">Fecha de vencimiento:</label>
+          <input class="fecha" name="Fecha de vencimiento" id="vencimiento" type="month" required/>
+          
+          <label for="cvv">CVV:</label>
+          <input id="cvv" type="tel" required inputmode="numeric" pattern="[0-9\s]{3,3}" maxlength="3" >
+      </fieldset>
+      <fieldset>
+          <legend class="correo1">Correo de contacto</legend>
+          <label class="email" for="email">Ingresar correo de contacto:</label>
+          <input type="email" name="correo" id="email" required> 
+      </fieldset>
+      <fieldset>
+          <legend class="numeros1">Sumatoria de numeros y crear input</legend>
+          <input type="button" id="boton" value="Crear" onclick="crear();"/>
+          <label for="input1">Ingresar primer numero:</label>
+          <input type="text" name="numeros1" class="numeros" id="input1">
+          <label for="input2">Ingresar segundo numero:</label>
+          <input type="text" name="numeros2" class="numeros" id="input2">
+          <div>Resultado</div>
+          <p id="sumar"></p>
+          <input type="button" id="boton2" value="Sumar"  onclick="sumar();"/>
+          <div id="nuevoinput" class="dynamic">Input creado:</div>
+      </fieldset>
+      <input type="submit" value="ENVIAR" id="boton3">
+  </form>
+  <div class="bird-container bird-container--one">
+        <div class="bird bird--one"></div>
+      </div>
+      
+      <div class="bird-container bird-container--two">
+        <div class="bird bird--two"></div>
+      </div>
+      
+      <div class="bird-container bird-container--three">
+        <div class="bird bird--three"></div>  
+      </div>
+      
+      <div class="bird-container bird-container--four">
+        <div class="bird bird--four"></div>
+      </div>
+    <footer>
+        Derechos reservados a Nicolas Vergara, creador de los mejores memes de la galaxia, aguante ruby kurosawa
+    </footer>
+</body>
+</html>

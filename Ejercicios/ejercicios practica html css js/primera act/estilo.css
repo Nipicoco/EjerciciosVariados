@@ -1,0 +1,99 @@
+h2 { font-size: 40px; font-family: sans-serif;}
+h1 { font-size: 20px;}
+body{ background-image: url(https://images.unsplash.com/photo-1528731708534-816fe59f90cb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80)}
+.pie {color: blue;text-align: center}
+.tabla table th,td{
+    text-align: center;
+    border: rgba(9, 20, 170, 0.596) 5px solid;
+}
+.pie1 {color: green;}
+.choclo{
+    text-align: center;
+    font-style: sans-serif;
+    background-color:#4e74bb;
+    
+}
+.header1{text-align: center;}
+.choclo1{
+    text-align: center;
+    font-style: sans-serif;
+    
+}
+iframe{
+    border-width: 1px;
+    
+    
+}
+section{
+    color: seagreen
+}
+.tabla h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tabla table{
+    width: 60%;
+}
+.tabla td:hover{
+    background-color:rgb(20, 152, 161, 0.452);
+
+}
+.tabla th:hover{
+    background-color:rgba(20, 152, 161, 0.452);
+    color:red;
+}
+.ruby2{text-align: center;
+    font-style: sans-serif;}
+.ruby{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif   }
+table{ 
+    background-color: rgba(182, 182, 182, 0.589); margin: 0 auto; display: table
+}
+.pie9{color:blue}
+.formulario1 ul{
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+.posto {
+    text-align: center;
+    border: 30px solid rgb(255, 8, 0);
+    font-size: 50px;
+  }
+  
+footer {color: red}
+header {font-family: 'Courier New', Courier, monospace;}
+p {margin : 10; margin-bottom : 10; margin-top : 20; margin-left : 50; margin-right :10}
+li {text-align: left;}
+.porotos{color: white ;background-color : black ;text-align: center}
+.porotos1{color: black ;text-align: center}
+.navbar{text-align: center ;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+.header222{text-align: center;font-size:35px}
+.audioc {
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: block
+  }
+.lentejas1{text-align: center;}
+.lenteja2{text-align: center;}
+.lenteja3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+.hinata{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.pie9{text-align: center;}
+.imga{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+.FORMULARIO2 ul{
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
